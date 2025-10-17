@@ -29,10 +29,10 @@ Feel free to browse  the project even if it is a work in progress. The project w
 
 ## Models finished:
 
-Here are the list of the machine learning models that are completed for this project.
+Here are the list of the machine learning models that are completed, as well as those planned for implementation for this project.
 
 Each Model contains:
-- A explenation of how the model works.
+- A explanation of how the model works.
 - The code of the model.
 - Insights or results. (Some models such as KNN or PCA contain visuals.)
 
@@ -42,37 +42,39 @@ Each Model contains:
 3. Logistic Regression
 4. Logistic Ridge
 5. Logistic Lasso
-6.
+6. SVM (Pending / Work in Progress)
 7. Classification Tree
 8. Classification Random Forests
 9. Classification XGBoost
-10.    
+10. Classification Neural Network (Pending / Work in Progress)
+
 
 
 ### Regression 📈:
 1. Linear Regression
 2. Ridge
 3. LASSO
-4. 
-5.
-6.
+4. PCR (Pending / Work in Progress)
+5. PLS (Pending / Work in Progress)
+6. SVR (Pending / Work in Progress)
 7. Regression Tree
 8. Regression Random Forests
 9. Regression XGBoost
-10. 
+10. Regression Neural Network (Pending / Work in Progress)
 11. KNN Regressor
 
 ### Un-Supervised 🧩:
 
 1. PCA
 2. K Means
-3. 
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+3. Spectral Clustering (Pending / Work in Progress)
+4. (Pending / Work in Progress)
+5. (Pending / Work in Progress)
+6. (Pending / Work in Progress)
+7. (Pending / Work in Progress)
+8. (Pending / Work in Progress)
+9. (Pending / Work in Progress)
+10. Isolation Forest (Pending / Work in Progress)
+
 
 
