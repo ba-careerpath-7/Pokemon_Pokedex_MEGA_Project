@@ -16,7 +16,7 @@ Key Goals:
 * Discover patterns in Pokemon using distinct base stats.
 
 Packages Used:
-Python, pandas, NumPy, matplotlib, seaborn, scikit-learn, XGBoost, Plotly
+Python, pandas, NumPy, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plotly, YellowBrick
 
 Repository Contents:
 
