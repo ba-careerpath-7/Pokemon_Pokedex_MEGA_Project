@@ -42,11 +42,11 @@ Each Model contains:
 3. Logistic Regression
 4. Logistic Ridge
 5. Logistic Lasso
-6. SVM (Pending / Work in Progress)
+6. SVM 
 7. Classification Tree
 8. Classification Random Forests
 9. Classification XGBoost
-10. Classification Neural Network (Pending / Work in Progress)
+10. Classification Neural Network 
 
 
 
@@ -54,14 +54,16 @@ Each Model contains:
 1. Linear Regression
 2. Ridge
 3. LASSO
-4. PCR (Pending / Work in Progress)
-5. PLS (Pending / Work in Progress)
-6. SVR (Pending / Work in Progress)
+4. PCR 
+5. PLS 
+6. SVR 
 7. Regression Tree
 8. Regression Random Forests
 9. Regression XGBoost
-10. Regression Neural Network (Pending / Work in Progress)
+10. Regression Neural Network 
 11. KNN Regressor
+
+
 
 ### Un-Supervised 🧩:
 
@@ -73,8 +75,8 @@ Each Model contains:
 6. (Pending / Work in Progress)
 7. (Pending / Work in Progress)
 8. (Pending / Work in Progress)
-9. (Pending / Work in Progress)
-10. Isolation Forest (Pending / Work in Progress)
+9. Isolation Forests
+10. Auto Encoders (Pending / Work in Progress)
 
 
 
