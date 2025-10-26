@@ -4,7 +4,7 @@
 ### Pokemon Pokedex MEGA Project from Resume
 
 ## Overview:
-This project explores Pokemon data using Python and machine learning. The goal is to clean the pokedex data, explore the data, create visualizations, build machine learning models, and get insights from both exploration and models.
+This project explores Pokemon data using Python, data science, and machine learning. The goal is to clean the Pokedex data, explore the data, create visualizations, build machine learning models, and get insights from both exploration and models.
 
 ## Status:
 Work in progress — updates will be added as more models and visualizations are completed.
