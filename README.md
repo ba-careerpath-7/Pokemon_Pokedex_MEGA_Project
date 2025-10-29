@@ -22,12 +22,12 @@ NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plo
 
 Repository Contents:
 
-* Contains data cleaning, EDA, and machine learning experiments
+* Contains data cleaning, filtering, aggregates, EDA, and machine learning experiments
 * Plots and visualizations
 * Insights, observations, and discoveries
 
 Note:
-Feel free to browse  the project even if it is a work in progress. The project will be updated periodically with new models and analyses.
+Feel free to browse the project even if it is a work in progress. The project will be updated periodically with new models and analyses.
 
 ## Models finished:
 
