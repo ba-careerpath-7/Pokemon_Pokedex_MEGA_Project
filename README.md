@@ -71,8 +71,8 @@ Each Model contains:
 
 1. PCA
 2. K Means
-3. Spectral Clustering (Pending / Work in Progress)
-4. (Pending / Work in Progress)
+3. Spectral Clustering
+4. t-SNE
 5. (Pending / Work in Progress)
 6. (Pending / Work in Progress)
 7. (Pending / Work in Progress)
