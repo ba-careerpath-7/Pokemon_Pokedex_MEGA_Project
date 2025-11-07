@@ -73,12 +73,13 @@ Each Model contains:
 2. K Means
 3. Spectral Clustering
 4. t-SNE
-5. (Pending / Work in Progress)
-6. (Pending / Work in Progress)
-7. (Pending / Work in Progress)
-8. (Pending / Work in Progress)
-9. Isolation Forests
-10. Auto Encoders (Pending / Work in Progress)
+5. MDS (Pending / Work in Progress)
+6. LLE (Pending / Work in Progress)
+7. DBSCAN (Pending / Work in Progress)
+8. GMM (Pending / Work in Progress)
+9. Agglomerative Clustering (Pending / Work in Progress)
+10. Isolation Forests
+11. Auto Encoders (Pending / Work in Progress)
 
 
 
