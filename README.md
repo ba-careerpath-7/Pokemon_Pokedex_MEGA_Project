@@ -77,7 +77,7 @@ Each Model contains:
 6. LLE (Pending / Work in Progress)
 7. DBSCAN (Pending / Work in Progress)
 8. GMM (Pending / Work in Progress)
-9. Agglomerative Clustering (Pending / Work in Progress)
+9. HAC (Pending / Work in Progress)
 10. Isolation Forests
 11. Auto Encoders (Pending / Work in Progress)
 
