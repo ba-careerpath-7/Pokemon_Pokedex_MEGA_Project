@@ -7,7 +7,7 @@
 This MEGA Project explores Pokemon data using Python, data science, and machine learning. The goal is to clean the Pokedex data, explore the data, create visualizations, build machine learning models, and get insights from both exploration and models.
 
 ## Status:
-Work in progress — updates will be added as more models and visualizations are completed.
+Work in progress — Almost done. 
 
 Key Goals:
 
@@ -18,7 +18,7 @@ Key Goals:
 Coding Language Used: Python
 
 Python Packages Used:
-NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plotly, YellowBrick
+NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plotly, YellowBrick, Scipy 
 
 Repository Contents:
 
@@ -27,7 +27,7 @@ Repository Contents:
 * Insights, observations, and discoveries
 
 Note:
-Feel free to browse the project even if it is a work in progress. The project will be updated periodically with new models and analyses.
+Feel free to browse the project even if it is a work in progress. This project is almost completed. 
 
 ## Models finished:
 
@@ -73,11 +73,11 @@ Each Model contains:
 2. K Means
 3. Spectral Clustering
 4. t-SNE
-5. MDS (Pending / Work in Progress)
-6. LLE (Pending / Work in Progress)
-7. DBSCAN (Pending / Work in Progress)
-8. GMM (Pending / Work in Progress)
-9. HAC (Pending / Work in Progress)
+5. MDS 
+6. LLE 
+7. DBSCAN
+8. GMM 
+9. HAC 
 10. Isolation Forests
 11. Auto Encoders (Pending / Work in Progress)
 
