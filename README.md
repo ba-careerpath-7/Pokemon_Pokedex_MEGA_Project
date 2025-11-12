@@ -6,9 +6,6 @@
 ## Overview:
 This MEGA Project explores Pokemon data using Python, data science, and machine learning. The goal is to clean the Pokedex data, explore the data, create visualizations, build machine learning models, and get insights from both exploration and models.
 
-## Status:
-The Project is done!
-
 Key Goals:
 
 * Classify whether a future Pokemon is Legendary
