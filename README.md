@@ -7,7 +7,7 @@
 This MEGA Project explores Pokemon data using Python, data science, and machine learning. The goal is to clean the Pokedex data, explore the data, create visualizations, build machine learning models, and get insights from both exploration and models.
 
 ## Status:
-Work in progress — Almost done. 
+The Project is done!
 
 Key Goals:
 
@@ -26,8 +26,6 @@ Repository Contents:
 * Plots and visualizations
 * Insights, observations, and discoveries
 
-Note:
-Feel free to browse the project even if it is a work in progress. This project is almost completed. 
 
 ## Models finished:
 
@@ -79,7 +77,7 @@ Each Model contains:
 8. GMM 
 9. HAC 
 10. Isolation Forests
-11. Auto Encoders (Pending / Work in Progress)
+
 
 
 
