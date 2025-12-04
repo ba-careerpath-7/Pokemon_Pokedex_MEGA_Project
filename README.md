@@ -27,9 +27,7 @@ Repository Contents:
 * Insights, observations, and discoveries
 
 
-## Models finished:
-
-Here are the list of the machine learning models that are completed, as well as those planned for implementation for this project.
+## Models implemented:
 
 Each Model contains:
 - A explanation of how the model works.
