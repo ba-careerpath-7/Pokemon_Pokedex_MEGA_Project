@@ -22,7 +22,7 @@ Key Goals:
 Coding Language Used: Python
 
 Python Packages Used:
-NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plotly, YellowBrick, Scipy 
+NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plotly, YellowBrick, SciPy 
 
 Repository Contents:
 
