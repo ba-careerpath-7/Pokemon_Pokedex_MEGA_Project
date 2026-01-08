@@ -9,6 +9,7 @@ READ ME: To view the project, press: Pokemon_Pokedex_MEGA_Project_(main).ipynb
 
 NOTE: Since this project is MASSIVE, the file of "Pokemon_Pokedex_MEGA_Project_(main).ipynb" can take a minute to load! If it fails to load, refresh the website and it should hopefully load!
 
+NOTE: If the project does not load, here is a Kaggle Link: https://www.kaggle.com/code/brettean7/pokemon-pokedex-mega-project-preview-some-models
 
 ## Overview:
 This MEGA Project explores Pokemon data using Python, data science, and machine learning. The goal is to clean the Pokedex data, explore the data, create visualizations, build machine learning models, and get insights from both exploration and models.
