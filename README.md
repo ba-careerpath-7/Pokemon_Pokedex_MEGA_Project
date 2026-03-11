@@ -24,6 +24,10 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 
 * **Scarcity Modeling (Classification):** **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
 
+
+
+<img width="1447" height="707" alt="github_1" src="https://github.com/user-attachments/assets/c2bba65a-15bd-4f73-97f6-af0b328336c1" />
+
   
 * **Strength Estimation (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
@@ -68,7 +72,7 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 ### Thirdly, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
 
-Check them out at point 5!
+For a refresher, check them out at point 2!
 
 ---
 
