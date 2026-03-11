@@ -10,7 +10,7 @@ NOTE 3: In the end of this ReadMe, I will list my methodology and the Machine Le
 
 ---
 
-## 0. Why is this called the **MEGA Project**?
+## 1. 🌟 Why is this called the **MEGA Project**?
 
 Before we begin, notice that this is called the **MEGA project**. The name has been inspired by MEGA evolution, a special mechanic introduced in Generation 6 of Pokemon. And it's great timing to use the word MEGA since the next Pokemon game Pokemon Legends: Z-A arrived in October 16, 2025. Pokemon Legends: Z-A's theme is on generation 6 Pokemon and brings back the MEGA evolution mechanic.
 
@@ -24,7 +24,7 @@ The third reason this is a **MEGA Project** is because, well this is a loooooooo
 
 
 
-## 1. 💵 The Business Problem: How do we identify minority populations and predict continous values?
+## 2. 💵 The Business Problem: How do we identify minority populations and predict continous values?
 
 **The Challenge:** In a dataset with over 1,000 observations and 30+ features, how do we identify "Scarcity of objects" (Legendary status) and predict "Strength oj objects" (Base Stats) when the data is heavily skewed and contains hidden archetypes? Lets do this in a fun way using Pokemon data!
 
@@ -34,7 +34,7 @@ The third reason this is a **MEGA Project** is because, well this is a loooooooo
 
 
 
-## 2. 💡 Key Insights and Final Conclusions
+## 3. 💡 Key Insights and Final Conclusions
 
 ### **Scarcity Modeling (Classification):**
  **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
@@ -128,7 +128,7 @@ Anomalies are denoted by a darker color.
 
 ---
 
-## 3. 📔 The Methodology of what I did: 
+## 4. 📔 The Methodology of what I did: 
 
 ### Firstly, I did exploratory data analysis.
 
@@ -152,7 +152,7 @@ For a refresher, check them out at point 2! (#2-key-insights-and-final-conclusio
 
 ---
 
-## 4. 💻 Technical Log (30+ Models)
+## 5. 💻 Technical Log (30+ Models)
 
 <details>
 <summary><b> Click this Arrow to expand the Comprehensive Model Library! </b></summary>
