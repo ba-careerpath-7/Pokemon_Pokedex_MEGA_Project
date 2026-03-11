@@ -25,20 +25,27 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 * **Scarcity Modeling (Classification):** **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
 
 
+<img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
 
-<img width="1447" height="707" alt="github_1" src="https://github.com/user-attachments/assets/c2bba65a-15bd-4f73-97f6-af0b328336c1" />
 
   
 * **Strength Estimation (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
+<img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
+
   
 * **Distributional Analysis:** Discovered a **Bi-modal Distribution** in base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
 
+<img width="1247" height="702" alt="github_pokemon_3" src="https://github.com/user-attachments/assets/f5d8dcf5-c796-47b4-a9eb-5ab073e9b736" />
 
 * **Independence of Variables:** Correlation analysis revealed a **near-zero relationship between Speed and Defense**. This debunked the "Heavy = Slow" intuition, proving that high-defense assets can maintain high velocity.
 
+<img width="920" height="837" alt="github_pokemon_4" src="https://github.com/user-attachments/assets/b8122346-0a30-4002-8df9-ed088575d992" />
 
-* **The "Outlier" Protocol:** While basic stats find "weak" Pokemon, I used **Isolation Forests** and **HAC (Hierarchical Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities.
+
+* **The "Outlier" Protocol:** While basic stats find "weak" Pokemon, I used **HAC (Hierarchical Agglormative Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities. Furthermore, Isolation Forests showed that the outliers are any Pokemon with a extremely high or low stat like Attack or HP.
+
+  
 
 ---
 
@@ -72,7 +79,7 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 ### Thirdly, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
 
-For a refresher, check them out at point 2!
+For a refresher, check them out at point 2! (#2-key-insights-and-final-conclusions)
 
 ---
 
