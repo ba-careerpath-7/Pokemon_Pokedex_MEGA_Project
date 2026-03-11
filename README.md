@@ -74,13 +74,16 @@ Anomalies are denoted by a darker color.
 <img width="1241" height="710" alt="github_pokemon_9" src="https://github.com/user-attachments/assets/0360691b-2884-4844-98bf-2c6cd3d39f65" />
 
 The averages the base stat values of each K-Means cluster:
+
 <img width="715" height="190" alt="github_pokemon_10" src="https://github.com/user-attachments/assets/9d835617-9f11-433e-9277-b03b934d871b" />
 
 Misc averages and proportions of each K-Means cluster:
+
 <img width="591" height="185" alt="github_pokemon_11" src="https://github.com/user-attachments/assets/db7c8b3d-f813-4f9b-ac35-27e3493369a7" />
 
 Notice that cluster 3 contained the strongest Pokemon on average since the average total base stat is 577.488! 
-And recall that the proportion of legendary Pokemon is biggest in cluster 3!
+And recall that the proportion of Legendary Pokemon is biggest in cluster 3! 
+Therefore, most Legendary Pokemon and strong Pokemon tend to be in postive PC1 areas.
 
 
 
