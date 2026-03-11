@@ -15,7 +15,15 @@ NOTE: If the project does not load, here is a Kaggle Link: https://www.kaggle.co
 **The Goal:** Move beyond intuition-based "guessing" to provide mathematical evidence for Pokemon classification, performance forecasting, and anomaly detection.
 
 
-### 2. The Methodology of what I did: Used regression, classification, and unsupervised machine learning models.
+### 2. The Methodology of what I did: 
+
+**Firstly**, I did exploratory data analysis.
+
+I tried to find any interesting details in the Pokedex data. For instance, when grouping Pokemon by their types, it reveals that Dragon Pokemon had the highest average attack stat. 
+
+Plots of predictor against response variables or predictors against other predictors were made.
+
+**Secondly**, regression, classification, and unsupervised machine learning models were created.
 
 I implemented a **Model-Competition Framework** across 31 architectures to identify the most robust models of explaining and prediciting Pokemon characteristics. 
 
@@ -24,6 +32,8 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 * **Handling Class Imbalance:** With only **6%** of the population being "Legendary," I prioritized models (like XGBoost) that handle sparse target variables without overfitting.
 
 * **Stack:** Python (NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plotly, YellowBrick, SciPy)
+
+**Thirdly**, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
 
 ---
 
@@ -105,6 +115,5 @@ Each Model contains:
 
 ---
 
-### 6. Conclusion: What did we learn from these machine learning models and data science?
 
 
