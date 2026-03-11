@@ -1,10 +1,12 @@
 # Pokemon_Pokedex_MEGA_Project
 
-READ ME: To view the project, press: Pokemon_Pokedex_MEGA_Project_(main).ipynb
+ALERT: To view the project, press: Pokemon_Pokedex_MEGA_Project_(main).ipynb
 
-NOTE: Since this project is MASSIVE, the file of "Pokemon_Pokedex_MEGA_Project_(main).ipynb" can take a minute to load! If it fails to load, refresh the website and it should hopefully load!
+NOTE 1: Since this project is MASSIVE, the file of "Pokemon_Pokedex_MEGA_Project_(main).ipynb" can take a minute to load! If it fails to load, refresh the website and it should hopefully load!
 
-NOTE: If the project does not load, here is a Kaggle Link: https://www.kaggle.com/code/brettean7/pokemon-pokedex-mega-project-preview-some-models
+NOTE 2: If the project does not load, here is a Kaggle Link: https://www.kaggle.com/code/brettean7/pokemon-pokedex-mega-project-preview-some-models
+
+NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Models I used at the end of the ReadMe.
 
 ---
 
@@ -16,7 +18,37 @@ NOTE: If the project does not load, here is a Kaggle Link: https://www.kaggle.co
 
 ---
 
-## 2. The Methodology of what I did: 
+
+
+## 2. Key Insights and Final Conclusions
+
+* **Scarcity Modeling (Classification):** **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
+
+  
+* **Strength Estimation (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
+
+  
+* **Distributional Analysis:** Discovered a **Bi-modal Distribution** in base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
+
+
+* **Independence of Variables:** Correlation analysis revealed a **near-zero relationship between Speed and Defense**. This debunked the "Heavy = Slow" intuition, proving that high-defense assets can maintain high velocity.
+
+
+* **The "Outlier" Protocol:** While basic stats find "weak" Pokemon, I used **Isolation Forests** and **HAC (Hierarchical Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities.
+
+---
+
+## 3. Visual Evidence & Patterns
+
+* **PCA & t-SNE:** Dimensionality reduction confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Positive PC1).
+
+* **Feature Importance:** Data-driven evidence confirmed **Electric types** as the velocity leaders and **Fairy types** as the Special Defense leaders—validating fan intuition with statistical significance.
+
+---
+
+
+
+## 4. The Methodology of what I did: 
 
 ### Firstly, I did exploratory data analysis.
 
@@ -36,33 +68,11 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 ### Thirdly, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
 
----
-
-## 3. Key Insights: Any metrics, results, and discoveries I found. 
-
-* **Scarcity Modeling (Classification):** **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
-
-  
-* **Performance Forecasting (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
-
-  
-* **Distributional Analysis:** Discovered a **Bi-modal Distribution** in base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
-
-
-* **Independence of Variables:** Correlation analysis revealed a **near-zero relationship between Speed and Defense**. This debunked the "Heavy = Slow" intuition, proving that high-defense assets can maintain high velocity.
-
-
-* **The "Outlier" Protocol:** While basic stats find "weak" Pokemon, I used **Isolation Forests** and **HAC (Hierarchical Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities.
+Check them out at point 5!
 
 ---
 
-## 4. Visual Evidence & Patterns
 
-* **PCA & t-SNE:** Dimensionality reduction confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Positive PC1).
-
-* **Feature Importance:** Data-driven evidence confirmed **Electric types** as the velocity leaders and **Fairy types** as the Special Defense leaders—validating fan intuition with statistical significance.
-
----
 
 ## 5. Technical Log (30+ Models)
 
