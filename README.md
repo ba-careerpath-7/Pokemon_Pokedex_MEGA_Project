@@ -29,6 +29,15 @@ Bar plot of 10 classification models' F1 scores:
 
 * **Strength Estimation (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
+3D Hyperparamter plot for SVR:
+<img width="910" height="931" alt="github_pokemon_12_SVR" src="https://github.com/user-attachments/assets/8c0ec533-f8a6-4df3-a900-7c17c8fe2737" />
+
+The values that give the SVR the lowest rMSE value is: $C = 100$ and $\gamma = 1$
+
+As a refresher:
+$C$ is the cost. The more higher the $C$, the more higher the penalty will be for any points outside tolerance zone. 
+$\gamma$ tunes the complexity of the hyper plane. A more complex hyperplane is not always good, since it may perform well on the training set but predict testing set observations poorly due to overfitting.
+
 
 Bar plot of 11 regression models' rMSE scores:
 <img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
@@ -75,7 +84,7 @@ Anomalies are denoted by a darker color.
 
 The averages the base stat values of each K-Means cluster:
 
-<img width="715" height="190" alt="github_pokemon_10" src="https://github.com/user-attachments/assets/9d835617-9f11-433e-9277-b03b934d871b" />
+<img width="708" height="190" alt="github_pokemon_10" src="https://github.com/user-attachments/assets/f22b3c32-0604-442d-a314-3a9aa8f4665a" />
 
 Misc averages and proportions of each K-Means cluster:
 
