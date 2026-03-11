@@ -148,7 +148,7 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 ### Thirdly, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
 
-For a refresher, check them out at point 3! (## 3. 💡 Key Insights and Final Conclusions)
+For a refresher, check them out at point 3! (#-3--key-insights-and-final-conclusions)
 
 ---
 
