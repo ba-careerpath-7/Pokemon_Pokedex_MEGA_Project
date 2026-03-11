@@ -8,7 +8,7 @@ NOTE: If the project does not load, here is a Kaggle Link: https://www.kaggle.co
 
 ---
 
-### 1. The Business Problem: How do we identify minority populations and predict continous values?
+## 1. The Business Problem: How do we identify minority populations and predict continous values?
 
 **The Challenge:** In a dataset with over 1,000 observations and 30+ features, how do we identify "Scarcity" (Legendary status) and predict "Performance" (Base Stats) when the data is heavily skewed and contains hidden archetypes? Lets do this in a fun way using Pokemon data!
 
@@ -16,15 +16,15 @@ NOTE: If the project does not load, here is a Kaggle Link: https://www.kaggle.co
 
 ---
 
-### 2. The Methodology of what I did: 
+## 2. The Methodology of what I did: 
 
-**Firstly**, I did exploratory data analysis.
+### Firstly, I did exploratory data analysis.
 
 I tried to find any interesting details in the Pokedex data. For instance, when grouping Pokemon by their types, it reveals that Dragon Pokemon had the highest average attack stat. 
 
 Plots of predictor against response variables or predictors against other predictors were made.
 
-**Secondly**, regression, classification, and unsupervised machine learning models were created.
+### Secondly, regression, classification, and unsupervised machine learning models were created.
 
 I implemented a **Model-Competition Framework** across 31 architectures to identify the most robust models of explaining and prediciting Pokemon characteristics. 
 
@@ -34,11 +34,11 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 * **Stack:** Python (NumPy, pandas, matplotlib, seaborn, scikit-learn, XGBoost, TensorFlow/Keras, Plotly, YellowBrick, SciPy)
 
-**Thirdly**, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
+### Thirdly, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
 
 ---
 
-### 3. Key Insights: Any metrics, results, and discoveries I found. 
+## 3. Key Insights: Any metrics, results, and discoveries I found. 
 
 * **Scarcity Modeling (Classification):** **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
 
@@ -56,7 +56,7 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 ---
 
-### 4. Visual Evidence & Patterns
+## 4. Visual Evidence & Patterns
 
 * **PCA & t-SNE:** Dimensionality reduction confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Positive PC1).
 
@@ -64,7 +64,7 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 ---
 
-### 5. Technical Log (30+ Models)
+## 5. Technical Log (30+ Models)
 
 <details>
 <summary><b> Click this Arrow to expand the Comprehensive Model Library! </b></summary>
