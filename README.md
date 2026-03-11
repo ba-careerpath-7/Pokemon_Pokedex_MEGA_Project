@@ -1,4 +1,4 @@
-# Pokemon_Pokedex_MEGA_Project
+# 🐉Pokemon_Pokedex_MEGA_Project
 
 ALERT: To view the project, press: Pokemon_Pokedex_MEGA_Project_(main).ipynb
 
@@ -10,7 +10,7 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 
 ---
 
-## 1. The Business Problem: How do we identify minority populations and predict continous values?
+## 1. 💵 The Business Problem: How do we identify minority populations and predict continous values?
 
 **The Challenge:** In a dataset with over 1,000 observations and 30+ features, how do we identify "Scarcity of objects" (Legendary status) and predict "Strength oj objects" (Base Stats) when the data is heavily skewed and contains hidden archetypes? Lets do this in a fun way using Pokemon data!
 
@@ -20,7 +20,7 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 
 
 
-## 2. Key Insights and Final Conclusions
+## 2. 💡 Key Insights and Final Conclusions
 
 ### **Scarcity Modeling (Classification):**
  **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
@@ -114,7 +114,7 @@ Anomalies are denoted by a darker color.
 
 ---
 
-## 3. The Methodology of what I did: 
+## 3. 📔 The Methodology of what I did: 
 
 ### Firstly, I did exploratory data analysis.
 
@@ -140,7 +140,7 @@ For a refresher, check them out at point 2! (#2-key-insights-and-final-conclusio
 
 
 
-## 4. Technical Log (30+ Models)
+## 4. 💻 Technical Log (30+ Models)
 
 <details>
 <summary><b> Click this Arrow to expand the Comprehensive Model Library! </b></summary>
