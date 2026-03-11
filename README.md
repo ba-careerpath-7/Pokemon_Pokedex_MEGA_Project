@@ -64,22 +64,30 @@ Each point represents a Pokemon.
 Notice a Pokemon is more likely to be a anomaly if it is farther away from the main group of Pokemon. 
 Anomalies are denoted by a darker color. 
 
+
+* **Dimensionality Reduction and Clustering:** PCA and K-Means confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Postive PC1 values).
+
+2D PCA plot with Legendary labels:
+<img width="1241" height="711" alt="github_pokemon_8" src="https://github.com/user-attachments/assets/0ffd03c6-7bb4-41eb-be12-07266fc70148" />
+
+2D PCA plot with four K-Means cluster labels:
+<img width="1241" height="710" alt="github_pokemon_9" src="https://github.com/user-attachments/assets/0360691b-2884-4844-98bf-2c6cd3d39f65" />
+
+The averages the base stat values of each K-Means cluster:
+<img width="715" height="190" alt="github_pokemon_10" src="https://github.com/user-attachments/assets/9d835617-9f11-433e-9277-b03b934d871b" />
+
+Misc averages and proportions of each K-Means cluster:
+<img width="591" height="185" alt="github_pokemon_11" src="https://github.com/user-attachments/assets/db7c8b3d-f813-4f9b-ac35-27e3493369a7" />
+
+Notice that cluster 3 contained the strongest Pokemon on average since the average total base stat is 577.488! 
+And recall that the proportion of legendary Pokemon is biggest in cluster 3!
+
+
+
+
 ---
 
-## 3. Visual Evidence & Patterns
-
-* **PCA & t-SNE:** Dimensionality reduction confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Positive PC1).
-
-
-
-
-* **Feature Importance:** Data-driven evidence confirmed **Electric types** as the velocity leaders and **Fairy types** as the Special Defense leaders—validating fan intuition with statistical significance.
-
----
-
-
-
-## 4. The Methodology of what I did: 
+## 3. The Methodology of what I did: 
 
 ### Firstly, I did exploratory data analysis.
 
@@ -105,7 +113,7 @@ For a refresher, check them out at point 2! (#2-key-insights-and-final-conclusio
 
 
 
-## 5. Technical Log (30+ Models)
+## 4. Technical Log (30+ Models)
 
 <details>
 <summary><b> Click this Arrow to expand the Comprehensive Model Library! </b></summary>
