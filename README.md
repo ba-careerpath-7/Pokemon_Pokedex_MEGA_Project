@@ -22,12 +22,15 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 
 ## 2. Key Insights and Final Conclusions
 
-* **Scarcity Modeling (Classification):** **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
+### **Scarcity Modeling (Classification):**
+ **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp).
 
 Bar plot of 10 classification models' F1 scores:
 <img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
 
-* **Strength Estimation (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
+### **Strength Estimation (Regression):**
+
+**SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
 3D Hyperparamter plot for SVR:
 <img width="910" height="931" alt="github_pokemon_12_SVR" src="https://github.com/user-attachments/assets/8c0ec533-f8a6-4df3-a900-7c17c8fe2737" />
@@ -43,17 +46,48 @@ Bar plot of 11 regression models' rMSE scores:
 <img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
 
   
-* **Distributional Analysis:** Discovered a **Bi-modal Distribution** in total base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
+### **Distributional Analysis:**
+
+Discovered a **Bi-modal Distribution** in total base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
 
 Histogram of Pokemon' total base stats:
 <img width="1247" height="702" alt="github_pokemon_3" src="https://github.com/user-attachments/assets/f5d8dcf5-c796-47b4-a9eb-5ab073e9b736" />
 
-* **Independence of Variables:** Correlation analysis revealed a **near-zero relationship between Speed and Defense**. This debunked the "Heavy = Slow" intuition, proving that high-defense assets can maintain high velocity.
+### **Independence of Predictor Variables:** 
+
+Correlation analysis revealed a **near-zero relationship between Speed and Defense**. This debunked the "Heavy = Slow" intuition, proving that high-defense assets can maintain high velocity.
 
 Correlation Matrix of Individual Pokemon base stats:
 <img width="920" height="837" alt="github_pokemon_4_EDITED" src="https://github.com/user-attachments/assets/fbb185ff-ae47-4169-9b0d-69cc370aa87e" />
 
-* **The "Outlier" Protocol:** While basic stats find "weak" Pokemon, I used **HAC (Hierarchical Agglormative Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities. Furthermore, Isolation Forests showed that the outliers are any Pokemon with a extremely high or low stat like Attack or HP.
+
+### **Dimensionality Reduction and Clustering:** 
+
+PCA and K-Means confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Postive PC1 values).
+
+2D PCA plot with Legendary labels:
+<img width="1241" height="711" alt="github_pokemon_8" src="https://github.com/user-attachments/assets/0ffd03c6-7bb4-41eb-be12-07266fc70148" />
+
+2D PCA plot with four K-Means cluster labels:
+<img width="1241" height="710" alt="github_pokemon_9" src="https://github.com/user-attachments/assets/0360691b-2884-4844-98bf-2c6cd3d39f65" />
+
+The averages the base stat values of each K-Means cluster:
+
+<img width="708" height="190" alt="github_pokemon_10" src="https://github.com/user-attachments/assets/f22b3c32-0604-442d-a314-3a9aa8f4665a" />
+
+Misc averages and proportions of each K-Means cluster:
+
+<img width="591" height="185" alt="github_pokemon_11" src="https://github.com/user-attachments/assets/db7c8b3d-f813-4f9b-ac35-27e3493369a7" />
+
+Notice that cluster 3 contained the strongest Pokemon on average since the average total base stat is 577.488! 
+And recall that the proportion of Legendary Pokemon is biggest in cluster 3! 
+Therefore, most Legendary Pokemon and strong Pokemon tend to be in postive PC1 areas.
+
+
+
+### **The "Outlier" Protocol:**
+
+While basic stats find "weak" Pokemon, I used **HAC (Hierarchical Agglormative Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities. Furthermore, Isolation Forests showed that the outliers are any Pokemon with a extremely high or low stat like Attack or HP.
 
 HAC dendrogram plot of Meltan being it's own cluster (outlier):
 <img width="1499" height="817" alt="github_pokemon_5_EDITED" src="https://github.com/user-attachments/assets/11eec101-5f40-42c2-9742-63c5267e0a83" />
@@ -74,25 +108,6 @@ Notice a Pokemon is more likely to be a anomaly if it is farther away from the m
 Anomalies are denoted by a darker color. 
 
 
-* **Dimensionality Reduction and Clustering:** PCA and K-Means confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Postive PC1 values).
-
-2D PCA plot with Legendary labels:
-<img width="1241" height="711" alt="github_pokemon_8" src="https://github.com/user-attachments/assets/0ffd03c6-7bb4-41eb-be12-07266fc70148" />
-
-2D PCA plot with four K-Means cluster labels:
-<img width="1241" height="710" alt="github_pokemon_9" src="https://github.com/user-attachments/assets/0360691b-2884-4844-98bf-2c6cd3d39f65" />
-
-The averages the base stat values of each K-Means cluster:
-
-<img width="708" height="190" alt="github_pokemon_10" src="https://github.com/user-attachments/assets/f22b3c32-0604-442d-a314-3a9aa8f4665a" />
-
-Misc averages and proportions of each K-Means cluster:
-
-<img width="591" height="185" alt="github_pokemon_11" src="https://github.com/user-attachments/assets/db7c8b3d-f813-4f9b-ac35-27e3493369a7" />
-
-Notice that cluster 3 contained the strongest Pokemon on average since the average total base stat is 577.488! 
-And recall that the proportion of Legendary Pokemon is biggest in cluster 3! 
-Therefore, most Legendary Pokemon and strong Pokemon tend to be in postive PC1 areas.
 
 
 
