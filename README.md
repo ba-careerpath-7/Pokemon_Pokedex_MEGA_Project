@@ -6,7 +6,7 @@ NOTE 1: Since this project is MASSIVE, the file of "Pokemon_Pokedex_MEGA_Project
 
 NOTE 2: If the project does not load, here is a Kaggle Link: https://www.kaggle.com/code/brettean7/pokemon-pokedex-mega-project-preview-some-models
 
-NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Models I used at the end of the ReadMe.
+NOTE 3: In the end of this ReadMe, I will list my methodology and the Machine Learning Models I used.
 
 ---
 
@@ -138,12 +138,11 @@ For a refresher, check them out at point 2! (#2-key-insights-and-final-conclusio
 
 ---
 
-
-
 ## 4. 💻 Technical Log (30+ Models)
 
 <details>
 <summary><b> Click this Arrow to expand the Comprehensive Model Library! </b></summary>
+
 
 
 Each Model contains:
