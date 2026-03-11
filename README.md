@@ -12,7 +12,7 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 
 ## 1. The Business Problem: How do we identify minority populations and predict continous values?
 
-**The Challenge:** In a dataset with over 1,000 observations and 30+ features, how do we identify "Scarcity" (Legendary status) and predict "Performance" (Base Stats) when the data is heavily skewed and contains hidden archetypes? Lets do this in a fun way using Pokemon data!
+**The Challenge:** In a dataset with over 1,000 observations and 30+ features, how do we identify "Scarcity of objects" (Legendary status) and predict "Strength oj objects" (Base Stats) when the data is heavily skewed and contains hidden archetypes? Lets do this in a fun way using Pokemon data!
 
 **The Goal:** Move beyond intuition-based "guessing" to provide mathematical evidence for Pokemon classification, performance forecasting, and anomaly detection.
 
