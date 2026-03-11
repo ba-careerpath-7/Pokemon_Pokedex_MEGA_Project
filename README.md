@@ -56,8 +56,8 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 ### 5. Technical Log (30+ Models)
 
 <details>
-<summary><b>Click to expand the Comprehensive Model Library</b></summary>
-## Models implemented:
+<summary><b> Click this Arrow to expand the Comprehensive Model Library! </b></summary>
+
 
 Each Model contains:
 - A explanation of how the model works.
@@ -76,8 +76,6 @@ Each Model contains:
 9. Classification XGBoost
 10. Classification Neural Network 
 
-
-
 ### Regression 📈:
 1. Linear Regression
 2. Ridge
@@ -91,10 +89,7 @@ Each Model contains:
 10. Regression Neural Network 
 11. KNN Regressor
 
-
-
 ### Un-Supervised 🧩:
-
 1. PCA
 2. K Means
 3. Spectral Clustering
@@ -105,7 +100,6 @@ Each Model contains:
 8. GMM 
 9. HAC 
 10. Isolation Forests
-
 
 </details>
 
