@@ -27,25 +27,39 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 Bar plot of 10 classification models' F1 scores:
 <img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
 
-
-  
+Bar plot of 11 regression models' rMSE scores:
 * **Strength Estimation (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
 <img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
 
   
-* **Distributional Analysis:** Discovered a **Bi-modal Distribution** in base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
+* **Distributional Analysis:** Discovered a **Bi-modal Distribution** in total base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
 
+Histogram of Pokemon' total base stats:
 <img width="1247" height="702" alt="github_pokemon_3" src="https://github.com/user-attachments/assets/f5d8dcf5-c796-47b4-a9eb-5ab073e9b736" />
 
 * **Independence of Variables:** Correlation analysis revealed a **near-zero relationship between Speed and Defense**. This debunked the "Heavy = Slow" intuition, proving that high-defense assets can maintain high velocity.
 
-<img width="920" height="837" alt="github_pokemon_4" src="https://github.com/user-attachments/assets/b8122346-0a30-4002-8df9-ed088575d992" />
-
+Correlation Matrix of Individual Pokemon base stats:
+<img width="920" height="837" alt="github_pokemon_4_EDITED" src="https://github.com/user-attachments/assets/fbb185ff-ae47-4169-9b0d-69cc370aa87e" />
 
 * **The "Outlier" Protocol:** While basic stats find "weak" Pokemon, I used **HAC (Hierarchical Agglormative Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities. Furthermore, Isolation Forests showed that the outliers are any Pokemon with a extremely high or low stat like Attack or HP.
 
-  
+HAC dendrogram plot of Meltan being it's own cluster (outlier):
+<img width="1499" height="817" alt="github_pokemon_5_EDITED" src="https://github.com/user-attachments/assets/11eec101-5f40-42c2-9742-63c5267e0a83" />
+
+The first 20 Pokemon Outliers based on Isolation Forest:
+<img width="903" height="654" alt="github_pokemon_6" src="https://github.com/user-attachments/assets/a40b9fed-f522-4ed8-97a6-49fbca07185f" />
+
+There are a total of 52 Pokemon that are outliers if we believe that 5% of the data has outliers or anomalies. 
+Any Pokemon with a extremely high or low individual base stat like attack is considered as a outlier since our predictor variables uses only Pokemon individual base stats.  
+
+3D Anomaly Plot, based on 3D PCA and Isolation Forest Anomaly Scores:  
+<img width="960" height="963" alt="github_pokemon_7" src="https://github.com/user-attachments/assets/a0d03c2b-f6c5-4055-b589-ff8f517d6d00" />
+
+Each point represents a Pokemon.
+Notice a Pokemon is more likely to be a anomaly if it is farther away from the main group of Pokemon. 
+Anomalies are denoted by a darker color. 
 
 ---
 
