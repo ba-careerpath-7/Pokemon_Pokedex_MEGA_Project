@@ -32,7 +32,7 @@ Bar plot of 10 classification models' F1 scores:
 
 **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
-3D Hyperparamter plot for SVR:
+3D Hyperparamter plot for SVR, SVR's performance can depend on its hyperparameters:
 <img width="910" height="931" alt="github_pokemon_12_SVR" src="https://github.com/user-attachments/assets/8c0ec533-f8a6-4df3-a900-7c17c8fe2737" />
 
 The values that give the SVR the lowest rMSE value is: $C = 100$ and $\gamma = 1$
