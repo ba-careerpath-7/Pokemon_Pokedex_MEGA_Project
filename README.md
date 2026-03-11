@@ -27,9 +27,10 @@ NOTE 3: In this ReadMe, I will list my methodology and the Machine Learning Mode
 Bar plot of 10 classification models' F1 scores:
 <img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
 
-Bar plot of 11 regression models' rMSE scores:
 * **Strength Estimation (Regression):** **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
+
+Bar plot of 11 regression models' rMSE scores:
 <img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
 
   
@@ -47,6 +48,8 @@ Correlation Matrix of Individual Pokemon base stats:
 
 HAC dendrogram plot of Meltan being it's own cluster (outlier):
 <img width="1499" height="817" alt="github_pokemon_5_EDITED" src="https://github.com/user-attachments/assets/11eec101-5f40-42c2-9742-63c5267e0a83" />
+In this cut off line or any cut line, Meltan was bound to be isolated as it's own cluster.
+
 
 The first 20 Pokemon Outliers based on Isolation Forest:
 <img width="903" height="654" alt="github_pokemon_6" src="https://github.com/user-attachments/assets/a40b9fed-f522-4ed8-97a6-49fbca07185f" />
@@ -67,6 +70,9 @@ Anomalies are denoted by a darker color.
 
 * **PCA & t-SNE:** Dimensionality reduction confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Positive PC1).
 
+
+
+
 * **Feature Importance:** Data-driven evidence confirmed **Electric types** as the velocity leaders and **Fairy types** as the Special Defense leaders—validating fan intuition with statistical significance.
 
 ---
@@ -77,7 +83,7 @@ Anomalies are denoted by a darker color.
 
 ### Firstly, I did exploratory data analysis.
 
-I tried to find any interesting details in the Pokedex data. For instance, when grouping Pokemon by their types, it reveals that Dragon Pokemon had the highest average attack stat. 
+I tried to find any interesting details in the Pokedex data. For instance, when grouping Pokemon by their types, it reveals that Fighting Pokemon had the highest average attack stat. 
 
 Plots of predictor against response variables or predictors against other predictors were made.
 
