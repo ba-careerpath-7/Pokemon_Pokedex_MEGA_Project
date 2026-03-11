@@ -14,6 +14,7 @@ NOTE: If the project does not load, here is a Kaggle Link: https://www.kaggle.co
 
 **The Goal:** Move beyond intuition-based "guessing" to provide mathematical evidence for Pokemon classification, performance forecasting, and anomaly detection.
 
+---
 
 ### 2. The Methodology of what I did: 
 
