@@ -12,7 +12,7 @@ NOTE 3: In the end of this ReadMe, I will list my methodology and the Machine Le
 
 ## 1. 🌟 Why is this called the **MEGA Project**?
 
-Before we begin, notice that this is called the **MEGA project**. The name has been inspired by MEGA evolution, a special mechanic introduced in Generation 6 of Pokemon. And it's great timing to use the word MEGA since a recent Pokemon game called *Pokemon Legends: Z-A* arrived in October 16, 2025. *Pokemon Legends: Z-A*'s theme is on generation 6 Pokemon and brings back the MEGA evolution mechanic.
+Before we begin, notice that this is called the **MEGA project**. The name has been inspired by MEGA evolution, a special mechanic introduced in Generation 6 of Pokemon. And it's great timing to use the word MEGA since a recent Pokemon game called *Pokemon Legends: Z-A* arrived in October 16, 2025. *Pokemon Legends: Z-A*'s theme is based on Generation 6 Pokemon and brings back the MEGA evolution mechanic.
 
 
 The first reason this is a **MEGA Project** is because it has many parts: Data cleaning, data visualization, aggregate discoveries, exploratory data analysis,  classification models, regression models, and pattern models, and insights of Pokemon before and after discoveries in the data.
