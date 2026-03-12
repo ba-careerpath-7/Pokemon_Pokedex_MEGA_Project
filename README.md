@@ -134,7 +134,9 @@ Anomalies are denoted by a darker color.
 
 I tried to find any interesting details in the Pokedex data. For instance, when grouping Pokemon by their types, it reveals that Fighting Pokemon had the highest average attack stat. 
 
-Plots of predictor against response variables or predictors against other predictors were made.
+Plots of predictor variables against response variables were made.
+Additionally, predictor variables against other predictor variables were made.
+
 
 ### Secondly, regression, classification, and unsupervised machine learning models were created.
 
@@ -148,7 +150,7 @@ I implemented a **Model-Competition Framework** across 31 architectures to ident
 
 ### Thirdly, I tried to gather insights about which machine learning model had the best metric and if we found any discoveries about Pokemon data as a whole. 
 
-For a refresher, check them out at [point 3!](#3--key-insights-and-final-conclusions)
+For a refresher, check them out at [point 3!](#3--key-insights-and-final-conclusions) 
 
 ---
 
