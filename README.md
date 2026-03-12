@@ -72,9 +72,13 @@ Bar plot of 11 regression models' rMSE scores:
 ### **Distributional Analysis:**
 
 Discovered a **Bi-modal Distribution** in total base stats (peaks at 300 and 500). This suggests a "Dual-Tier" design philosophy rather than a standard Bell Curve.
+A bi-modal distribution makes sense since there are a considerable amount of stage 1 evolution Pokemon like Charmander, and plenty of stage 3 evolution Pokemon like Charizard!
+
 
 Histogram of Pokemon' total base stats:
 <img width="1247" height="702" alt="github_pokemon_3" src="https://github.com/user-attachments/assets/f5d8dcf5-c796-47b4-a9eb-5ab073e9b736" />
+
+
 
 ### **Independence of Predictor Variables:** 
 
