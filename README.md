@@ -42,7 +42,7 @@ The third reason this is a **MEGA Project** is because, well this is a loooooooo
 
 * I agree that Cross Validation (CV) can give us a better generalization of how much our error our model has. This is because cross validation takes k-1 sets of training and use 1 set as the testing set, estimate the error for each scenario, then take the average of the scenarios.
 
-*However, the problem is that CV could place some Gen 1 Pokemon in the training set, and some Gen 2 to 9 Pokemon in the training set. This is not my goal and this is data leakage. The training set has "future information".
+* However, the problem is that CV could place some Gen 1 Pokemon in the training set, and some Gen 2 to 9 Pokemon in the training set. This is not my goal and this is data leakage. The training set has "future information".
 
 
 ### **Scarcity Modeling (Classification):**
