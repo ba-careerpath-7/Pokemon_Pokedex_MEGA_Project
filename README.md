@@ -50,7 +50,7 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 
 * F1 Score: How well the model predicts the minority class. More specifically, the F1 Score serves as a robust evaluator by balancing the trade-off between Precision (avoiding false alarms) and Recall (ensuring no minority class instances are missed). This project contains more details of the mechanics of a F1 Score. 
 
-📊 Bar plot of 10 classification models' F1 scores:
+**📊 Bar plot of 10 classification models' F1 scores:**
 <img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
 
 ### **Strength Estimation (Regression):**
@@ -59,7 +59,7 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 
 * rMSE: This is known as the root Mean Squared Error. The lower the rMSE, the lower error our ML model has! It measures the distance betweeen a predicted ML's value and the actual observation value. This project contains more details of the mechanics of a F1 Score. 
 
-📊 3D Hyperparamter plot for SVR, SVR's performance can depend on its hyperparameters:
+**📊 3D Hyperparamter plot for SVR, SVR's performance can depend on its hyperparameters:**
 <img width="910" height="931" alt="github_pokemon_12_SVR" src="https://github.com/user-attachments/assets/8c0ec533-f8a6-4df3-a900-7c17c8fe2737" />
 
 The values that give the SVR the lowest rMSE value is: $C = 100$ and $\gamma = 1$
@@ -69,7 +69,7 @@ $C$ is the cost. The more higher the $C$, the more higher the penalty will be fo
 $\gamma$ tunes the complexity of the hyper plane. A more complex hyperplane is not always good, since it may perform well on the training set but predict testing set observations poorly due to overfitting.
 
 
-📊 Bar plot of 11 regression models' rMSE scores:
+**📊 Bar plot of 11 regression models' rMSE scores:**
 <img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
 
   
@@ -79,7 +79,7 @@ Discovered a **Bi-modal Distribution** in total base stats (peaks at 300 and 500
 A bi-modal distribution makes sense since there are a considerable amount of stage 1 evolution Pokemon like Charmander, and plenty of stage 3 evolution Pokemon like Charizard!
 
 
-📊 Histogram of Pokemons' total base stats:
+**📊 Histogram of Pokemons' total base stats:**
 <img width="1247" height="702" alt="github_pokemon_3" src="https://github.com/user-attachments/assets/f5d8dcf5-c796-47b4-a9eb-5ab073e9b736" />
 
 
@@ -88,7 +88,7 @@ A bi-modal distribution makes sense since there are a considerable amount of sta
 
 Correlation analysis revealed a **near-zero relationship between Speed and Defense**. This debunked the "Heavy = Slow" intuition, proving that high-defense assets can maintain high velocity.
 
-📊 Correlation Matrix of Individual Pokemon base stats:
+**📊 Correlation Matrix of Individual Pokemon base stats:**
 <img width="920" height="837" alt="github_pokemon_4_EDITED" src="https://github.com/user-attachments/assets/fbb185ff-ae47-4169-9b0d-69cc370aa87e" />
 
 
@@ -96,18 +96,16 @@ Correlation analysis revealed a **near-zero relationship between Speed and Defen
 
 PCA and K-Means confirmed that Legendary and high-stat Pokemon occupy a distinct "Cluster of Power" (Postive PC1 values).
 
-📊 2D PCA plot with Legendary labels:
+**📊 2D PCA plot with Legendary labels:**
 <img width="1241" height="711" alt="github_pokemon_8" src="https://github.com/user-attachments/assets/0ffd03c6-7bb4-41eb-be12-07266fc70148" />
 
-📊 2D PCA plot with four K-Means cluster labels:
+**📊 2D PCA plot with four K-Means cluster labels:**
 <img width="1241" height="710" alt="github_pokemon_9" src="https://github.com/user-attachments/assets/0360691b-2884-4844-98bf-2c6cd3d39f65" />
 
-📊 The averages the base stat values of each K-Means cluster:
-
+**📊 The averages the base stat values of each K-Means cluster:**
 <img width="708" height="190" alt="github_pokemon_10" src="https://github.com/user-attachments/assets/f22b3c32-0604-442d-a314-3a9aa8f4665a" />
 
-📊 Misc averages and proportions of each K-Means cluster:
-
+**📊 Misc averages and proportions of each K-Means cluster:**
 <img width="591" height="185" alt="github_pokemon_11" src="https://github.com/user-attachments/assets/db7c8b3d-f813-4f9b-ac35-27e3493369a7" />
 
 Notice that cluster 3 contained the strongest Pokemon on average since the average total base stat is 577.488! 
@@ -120,18 +118,18 @@ Therefore, most Legendary Pokemon and strong Pokemon tend to be in postive PC1 a
 
 While basic stats find "weak" Pokemon, I used **HAC (Hierarchical Agglormative Clustering)** to mathematically define outliers like **Meltan**, who sits in a unique statistical cluster separate from other Mythical entities. Furthermore, Isolation Forests showed that the outliers are any Pokemon with a extremely high or low stat like Attack or HP.
 
-📊 HAC dendrogram plot of Meltan being it's own cluster (outlier):
+**📊 HAC dendrogram plot of Meltan being it's own cluster (outlier):**
 <img width="1499" height="817" alt="github_pokemon_5_EDITED" src="https://github.com/user-attachments/assets/11eec101-5f40-42c2-9742-63c5267e0a83" />
 In this cut off line or any cut line, Meltan was bound to be isolated as it's own cluster.
 
 
-📊 The first 20 Pokemon Outliers based on Isolation Forest:
+**📊 The first 20 Pokemon Outliers based on Isolation Forest:**
 <img width="903" height="654" alt="github_pokemon_6" src="https://github.com/user-attachments/assets/a40b9fed-f522-4ed8-97a6-49fbca07185f" />
 
 There are a total of 52 Pokemon that are outliers if we believe that 5% of the data has outliers or anomalies. 
 Any Pokemon with a extremely high or low individual base stat like attack is considered as a outlier since our predictor variables uses only Pokemon individual base stats.  
 
-📊 3D Anomaly Plot, based on 3D PCA and Isolation Forest Anomaly Scores:  
+**📊 3D Anomaly Plot, based on 3D PCA and Isolation Forest Anomaly Scores:** 
 <img width="960" height="963" alt="github_pokemon_7" src="https://github.com/user-attachments/assets/a0d03c2b-f6c5-4055-b589-ff8f517d6d00" />
 
 Each point represents a Pokemon.
