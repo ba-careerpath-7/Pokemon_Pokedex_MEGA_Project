@@ -48,7 +48,7 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 ### **Scarcity Modeling (Classification):**
  **XGBoost** emerged as the superior classifier (**F1: 0.606**). I identified two "Noise Categories" that make classification difficult: **Mythical Pokemon** (which mimic Legendary traits) and **Pseudo-Legendaries** (High-stat regulars like Garchomp). 
 
-* F1 Score: How well the model predicts the minority class. More specifically, the F1 Score serves as a robust evaluator by balancing the trade-off between Precision (avoiding false alarms) and Recall (ensuring no minority class instances are missed). This project contains more details of the mechanics of a F1 Score. 
+* F1 Score: How well the model predicts the minority class. More specifically, the F1 Score serves as a robust evaluator by balancing the trade-off between Precision (avoiding false alarms) and Recall (ensuring no minority class instances are missed). This project contains more details of the mechanics of the F1 Score. 
 
 **📊 Bar plot of 10 classification models' F1 scores:**
 <img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
@@ -57,7 +57,7 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 
 **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
 
-* rMSE: This is known as the root Mean Squared Error. The lower the rMSE, the lower error our ML model has! It measures the distance betweeen a predicted ML's value and the actual observation value. This project contains more details of the mechanics of a F1 Score. 
+* rMSE: This is known as the root Mean Squared Error. The lower the rMSE, the lower error our ML model has! It measures the distance betweeen a predicted ML's value and the actual observation value. This project contains more details of the mechanics of the rMSE. 
 
 **📊 3D Hyperparamter plot for SVR, SVR's performance can depend on its hyperparameters:**
 <img width="910" height="931" alt="github_pokemon_12_SVR" src="https://github.com/user-attachments/assets/8c0ec533-f8a6-4df3-a900-7c17c8fe2737" />
