@@ -77,7 +77,8 @@ $\gamma$ tunes the complexity of the hyper plane. A more complex hyperplane is n
 
 **📊 Table results of actual Gen 9 Pokemon total base stats vs. SVR's Predictions:**
 
-[svr results table]
+![image alt](https://github.com/ba-careerpath-7/Pokemon_Pokedex_MEGA_Project/blob/9407aa30fe015d3d47553d54868b4414cd3e400d/github_pokemon_SVR_results.PNG)
+
 
 **📊 Bar plot of 11 regression models' rMSE scores:**
 <img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
