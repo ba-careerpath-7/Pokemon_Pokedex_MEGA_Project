@@ -54,9 +54,8 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 <img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
 
 **📊 Confusion Matrix of XGBoost's predictions:**
+![image alt](https://github.com/ba-careerpath-7/Pokemon_Pokedex_MEGA_Project/blob/47853bdd723197269a7097df83cf5be8d6fb1d87/github_pokemon_xgboost_results.PNG)
 
-
-[xgboost confusion matrix]
 
 
 
