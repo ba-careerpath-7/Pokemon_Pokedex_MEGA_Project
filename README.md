@@ -57,6 +57,9 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 
 ![image alt](https://github.com/ba-careerpath-7/Pokemon_Pokedex_MEGA_Project/blob/47853bdd723197269a7097df83cf5be8d6fb1d87/github_pokemon_xgboost_results.PNG)
 
+Recall that the testing set contained only Gen 9 Pokemon. There are a total of 120 Gen 9 Pokemon. There are only 11 legendaries in Generation 9.
+
+Therefore, XGBoost classified 10 legendary Pokemon correctly. But XGBoost also made 12 false positives and 1 false negative. It classied 12 Pokemon as legendary even though they were regular Pokemon, and classified 1 Pokemon as regular even though it was a legendary Pokemon. 
 
 
 
@@ -80,6 +83,7 @@ $\gamma$ tunes the complexity of the hyper plane. A more complex hyperplane is n
 
 ![image alt](https://github.com/ba-careerpath-7/Pokemon_Pokedex_MEGA_Project/blob/9407aa30fe015d3d47553d54868b4414cd3e400d/github_pokemon_SVR_results.PNG)
 
+This table shows the first 5 and last 5 Pokemon of Gen 9. Some of SVR's predicted values are similar to the actual Pokemon's total base stats, while some of the predicted values look off target.
 
 
 **📊 Bar plot of 11 regression models' rMSE scores:**
