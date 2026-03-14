@@ -55,7 +55,9 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 
 **📊 Confusion Matrix of XGBoost's predictions:**
 
-![image alt](https://github.com/ba-careerpath-7/Pokemon_Pokedex_MEGA_Project/blob/13b1475b9f1a810ab08c1589144dbf9d7364c4e8/github_pokemon_13_xgboost.PNG)
+
+[xgboost confusion matrix]
+
 
 
 
@@ -76,8 +78,7 @@ $\gamma$ tunes the complexity of the hyper plane. A more complex hyperplane is n
 
 **📊 Table results of actual Gen 9 Pokemon total base stats vs. SVR's Predictions:**
 
-![image_alt](https://github.com/ba-careerpath-7/Pokemon_Pokedex_MEGA_Project/blob/1da3765ff84efc40ec9425b78047d6761f8e5cb7/github_pokemon_14_SVR_results.PNG)
-
+[svr results table]
 
 **📊 Bar plot of 11 regression models' rMSE scores:**
 <img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
