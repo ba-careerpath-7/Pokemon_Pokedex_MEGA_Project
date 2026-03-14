@@ -53,6 +53,11 @@ The third reason this is a **MEGA Project** is because, well this is a loooonnnn
 **📊 Bar plot of 10 classification models' F1 scores:**
 <img width="1447" height="707" alt="github_pokemon_1" src="https://github.com/user-attachments/assets/5af1a833-5551-45a9-bca5-8f2bffc4ba95" />
 
+**📊 Confusion Matrix of XGBoost's predictions:**
+
+[xgboost confusion matrix]
+
+
 ### **Strength Estimation (Regression):**
 
 **SVR (Support Vector Regression)** provided the most stable predictions (**rMSE: 56.14**). While height and weight show a positive correlation with power, they are statistically "weak predictors," suggesting that "Power" in this universe is a latent variable not tied to physical mass.
@@ -67,6 +72,10 @@ The values that give the SVR the lowest rMSE value is: $C = 100$ and $\gamma = 1
 As a refresher:
 $C$ is the cost. The more higher the $C$, the more higher the penalty will be for any points outside tolerance zone. 
 $\gamma$ tunes the complexity of the hyper plane. A more complex hyperplane is not always good, since it may perform well on the training set but predict testing set observations poorly due to overfitting.
+
+**📊 Table results of actual Gen 9 Pokemon total base stats vs. SVR's Predictions:**
+
+[svr table]
 
 
 **📊 Bar plot of 11 regression models' rMSE scores:**
