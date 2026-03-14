@@ -70,6 +70,10 @@ Therefore, XGBoost classified 10 legendary Pokemon correctly. But XGBoost also m
 
 * rMSE: This is known as the root Mean Squared Error. The lower the rMSE, the lower error our ML model has! It measures the distance betweeen a predicted ML's value and the actual observation value. This project contains more details of the mechanics of the rMSE. 
 
+**📊 Bar plot of 11 regression models' rMSE scores:**
+<img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
+
+
 **📊 3D Hyperparamter plot for SVR, SVR's performance can depend on its hyperparameters:**
 <img width="910" height="931" alt="github_pokemon_12_SVR" src="https://github.com/user-attachments/assets/8c0ec533-f8a6-4df3-a900-7c17c8fe2737" />
 
@@ -86,8 +90,6 @@ $\gamma$ tunes the complexity of the hyper plane. A more complex hyperplane is n
 This table shows the first 5 and last 5 Pokemon of Gen 9. Some of SVR's predicted values are similar to the actual Pokemon's total base stats, while some of the predicted values look off target.
 
 
-**📊 Bar plot of 11 regression models' rMSE scores:**
-<img width="1424" height="705" alt="github_pokemon_2" src="https://github.com/user-attachments/assets/195cc965-c59d-4bcb-a592-e5c63ea426dd" />
 
   
 ### **Distributional Analysis:**
