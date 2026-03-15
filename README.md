@@ -5,6 +5,10 @@
 ## 🌈 Table of Contents for this Project:
 
 
+
+
+
+---
 ALERT: To view the project, press: Pokemon_Pokedex_MEGA_Project_(main).ipynb
 
 NOTE 1: Since this project is MASSIVE, the file of "Pokemon_Pokedex_MEGA_Project_(main).ipynb" can take a minute to load! If it fails to load, refresh the website and it should hopefully load!
