@@ -1,5 +1,10 @@
 # 🐉Pokemon Pokedex MEGA Project
 
+
+--- 
+## 🌈 Table of Contents for this Project:
+
+
 ALERT: To view the project, press: Pokemon_Pokedex_MEGA_Project_(main).ipynb
 
 NOTE 1: Since this project is MASSIVE, the file of "Pokemon_Pokedex_MEGA_Project_(main).ipynb" can take a minute to load! If it fails to load, refresh the website and it should hopefully load!
@@ -7,6 +12,8 @@ NOTE 1: Since this project is MASSIVE, the file of "Pokemon_Pokedex_MEGA_Project
 NOTE 2: If the project does not load, here is a Kaggle Link: https://www.kaggle.com/code/brettean7/pokemon-pokedex-mega-project-preview-some-models
 
 NOTE 3: In the end of this ReadMe, I will list my methodology and the Machine Learning (ML) Models I used.
+
+
 
 ---
 
