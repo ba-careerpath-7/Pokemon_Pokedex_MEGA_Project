@@ -28,7 +28,7 @@ Before we begin, notice that this is called the **MEGA project**. The name has b
 
 The first reason this is a **MEGA Project** is because it has many parts: Data cleaning, data visualization, aggregate discoveries, exploratory data analysis,  classification models, regression models, and pattern models, and insights of Pokemon before and after discoveries in the data.
 
-The second reason this is a **MEGA Project** is because I will aim to cater towards  everyone. If this is your first time seeing data science or if you are a veteran in data science, this project is for you. I will be explaining the simplest concepts to theories behind the models and data science concepts we use! There will also be many times where I explain concepts with real world examples such as airport data, NBA data, the population in the United States, financial scenarios, and more. Not everyone is a Pokemon fan, but there may be someone who is a NBA fan or a finance enthusiast.
+The second reason this is a **MEGA Project** is because I will aim to cater towards everyone. If this is your first time seeing data science or if you are a veteran in data science, this project is for you. I will be explaining the simplest concepts to theories behind the models and data science concepts we use! There will also be many times where I explain concepts with real world examples such as airport data, NBA data, the population in the United States, financial scenarios, and more. Not everyone is a Pokemon fan, but there may be someone who is a NBA fan or a finance enthusiast.
 
 The third reason this is a **MEGA Project** is because, well this is a loooonnnnnngggggg Project. 
 
