@@ -5,8 +5,7 @@
 ## 📋 Table of Contents for this Project:
 
 
-
-
+![image alt](https://github.com/ba-careerpath-7/Pokemon_Pokedex_MEGA_Project/blob/6b6840d496e99be2741196e6a82c7ba9c885b5ec/github_pokemon_content_table_v2.PNG)
 
 
 ---
